@@ -575,7 +575,7 @@ function makeMaze() {
     player = null;
   }
   var e = document.getElementById("diffSelect");
-  difficulty = 15;
+  difficulty = 18;
   cellSize = mazeCanvas.width / difficulty;
   maze = new Maze(difficulty, difficulty);
   draw = new DrawMaze(maze, ctx, cellSize, finishSprite);
